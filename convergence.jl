@@ -8,11 +8,11 @@
 # 2000. Convergence acceleration of alternating series. 
 # Experimental mathematics, 9(1), pp.3-12.
 
-function sum_alt(n::Int64,a::Function)
+# Algorithm 1
+function sum_alt(n,a)
     # Initializing parameters
-    d = (3.0 + √8)^n
-    d = (d + 1/d)/2 
-    b = -1.0; c = -d; s = 0.0
+    d = (3.0 + √8)^n;d = (d + 1/d)/2;
+    b = -1.0; c = -d; s = 0.0;
 
     # Performinf the algorithm 
     for k in 0:(n-1)
