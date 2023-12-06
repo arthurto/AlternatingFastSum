@@ -2,7 +2,7 @@
 
 This simple program implements the first algorithm developed by Cohen, H. et al. [1].
 
-The function `fast_sum(n,a)` performs the sum of the first `n` terms of the function `a(k)`, where `k` is an integer. The function `a(k)` is the correspondent of the term $a_k$ in the definition of the alternating series: $$ \sum_{k=0}^\infty (-1)^k a_k.$$
+The function `fast_sum(n,a)` performs the sum of the first `n` terms of the function `a(k)`, where `k` is an integer. The function `a(k)` is the correspondent of the term $a_k$ in the definition of the alternating series: $$\sum_{k=0}^\infty (-1)^k a_k.$$
 
 
 ## Usage Example
