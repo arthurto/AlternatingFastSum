@@ -9,7 +9,7 @@
 # Experimental mathematics, 9(1), pp.3-12.
 
 # Algorithm 1
-function sum_alt(n,a)
+function fast_sum(n::Integer,a)
     # Initializing parameters
     d = (3.0 + √8)^n;d = (d + 1/d)/2;
     b = -1.0; c = -d; s = 0.0;
