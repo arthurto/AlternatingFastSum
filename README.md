@@ -16,6 +16,6 @@ The series must be truncated at some point, say, $n=10$, so the sum of this alte
     AlternatingFastSum.fast_sum(10,i->1/(i+1))
 ```
 
-Note that the $(-1)^{n+1} term is missing from the implicit function. 
+Note that the $(-1)^{n+1}$ term is missing from the implicit function. 
 
 [1] - [Cohen, H., Villegas, F.R. and Zagier, D., 2000. Convergence acceleration of alternating series. Experimental mathematics, 9(1), pp.3-12.](https://people.mpim-bonn.mpg.de/zagier/files/exp-math-9/fulltext.pdf) 
