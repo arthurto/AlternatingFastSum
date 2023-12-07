@@ -5,6 +5,8 @@ This simple program implements the first algorithm developed by Cohen, H. et al.
 The function `fast_sum(n,a)` performs the sum of the first `n` terms of the function `a(k)`, where `k` is an integer. The function `a(k)` is the correspondent of the term $a_k$ in the definition of the alternating series: $$\sum_{k=0}^\infty (-1)^k a_k.$$
 
 
+It may also work for non-alternating series, but only those that are "implicitly alternating", as said in [1]. 
+
 ## Usage Example
 
 Performing the alternating sum that defines the logarithm of $1 + x$, or $$\log(1+x) = \sum_{n=1}^{\infty} \frac{(-1)^{n+1}}{n}x^n,$$ at $x = 1$, so $$\log(2) = \sum_{n=1}^{\infty} \frac{(-1)^{n+1}}{n}.$$
