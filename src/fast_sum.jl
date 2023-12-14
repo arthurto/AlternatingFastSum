@@ -14,7 +14,7 @@ function fast_sum(n::Integer,a)
     d = (3.0 + √8)^n;d = (d + 1/d)/2;
     b = -1.0; c = -d; s = 0.0;
 
-    # Performinf the algorithm 
+    # Performinf the algorithm
     for k in 0:(n-1)
         c = b - c; s += c*a(k);
         b = (k + n)*(k-n)*b/((k+1/2)*(k+1));
@@ -23,3 +23,6 @@ function fast_sum(n::Integer,a)
     # Returning the value 
     return s/d
 end
+
+# This algorithm might work for some non-alternating
+# sums, if they are non-explicitly alternating
